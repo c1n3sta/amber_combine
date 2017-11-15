@@ -1,0 +1,13 @@
+____________________
+sudo visudo
+username ALL=(ALL) NOPASSWD: ALL
+____________________
+sudo usermod -aG dialout username
+____________________
+chmod +x nw/nw
+chmod +x autorun
+____________________
+sudo mv /usr/share/dbus-1/services/org.freedesktop.Notifications.service /usr/share/dbus-1/services/org.freedesktop.Notifications.service.disabled 
+
+sudo sed -i "s/enabled=1/enabled=0/g" '/etc/default/apport'
+____________________

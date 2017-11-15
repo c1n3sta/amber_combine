@@ -1,0 +1,226 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+html{
+	background: #000;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:  hidden;
+}
+
+body{
+	font: 14px Arial, Helvetica, sans-serif;
+	color:#B2B2B2;
+	overflow:  hidden;
+	background: #3C3C3B;
+}
+.main{
+	height:100vh;
+	position: relative;
+    filter: blur(5px);
+}
+.screen{
+	display: none;
+	height: 100vh;
+	width:100vw;
+}
+.screen1{
+	display: block;
+}
+.screen1 .logo{
+	width:20vw;
+	height:20vh;
+	line-height: 20vh;
+	text-align: center;
+	cursor: pointer;
+	margin:25vh auto 5vh auto;
+
+}
+.screen1 .text{
+	width:100vw;
+	
+	text-align: center;
+	margin:5vh auto;
+}
+.screen1 .text h1{
+	color:#B2B2B2;
+	font-size: 24px;
+
+}
+.screen1 .text button{
+	color:#B2B2B2;
+	font-size: 20px;
+	background: transparent;
+	text-decoration: underline;
+	border:none;
+	cursor: pointer;
+	margin-top: 5vh;
+	outline: 0;
+}
+.screen1 .logo img{
+	max-width:100%;
+	max-height: 20vh;
+	vertical-align: middle;
+}
+.imgvar{
+	width:23.33%;
+	margin:0 4%;
+	float: left;
+	border:5px solid #B2B2B2;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.imgvar img{
+	width:100%;
+	display: block;
+    border-radius: 5px;
+}
+.quest h1{
+	text-align: center;
+	font-size: 32px;
+	margin:25vh auto 10vh;
+}
+.quest .bar{
+	width:10vw;
+	margin-top:10vh; 
+	height: 80vh;
+	float: left;
+	line-height: 100vh;
+	position: relative;
+}
+.quest .bar img{
+	height: 80vh;
+}
+.quest .bar .hider{
+	height:0px;
+	background-color: #3C3C3B;
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+.quest .left{
+	float: left;
+	width:70vw;
+	height: 100vh;
+	margin:0 5vw;
+
+}
+.quest .textvar{
+	width:50%;
+	text-align:center;
+	padding:1vh 0;
+	margin:10vh 0;
+	cursor: pointer;
+	float: left;
+	text-decoration: underline;
+	font-size: 24px;
+}
+.quest .map-option{
+	text-align: center;
+}
+.quest .map-option img {
+	width: 70%;
+	height: auto;
+
+}
+.quest .map-option button{
+	color:#B2B2B2;
+	font-size: 20px;
+	background: transparent;
+	text-decoration: underline;
+	border:none;
+	cursor: pointer;
+	margin-top: 5vh;
+	outline: 0;
+	margin: auto;
+    display: block;
+}
+.quest .map-option button{
+	color:#B2B2B2;
+	font-size: 20px;
+	background: transparent;
+	text-decoration: underline;
+	border:none;
+	cursor: pointer;
+	margin-top: 5vh;
+	outline: 0;
+	margin: auto;
+    display: block;
+}
+.quest .optiontext button{
+	color:#B2B2B2;
+	font-size: 20px;
+	background: transparent;
+	text-decoration: underline;
+	border:none;
+	cursor: pointer;
+	margin-top: 5vh;
+	outline: 0;
+	margin: auto;
+    display: block;
+}
+.quest .optionvar{
+	width:40%;
+	margin: 5vh auto;
+	height:5vh;
+	cursor: pointer;
+}
+.quest .optionvar .texti{
+	font-size: 24px;
+	float:left;
+
+}
+.quest .optionvar .checki{
+	float:right;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:1vw;
+	height:1vw;
+	background-color: #1f1f1d;
+}
+.screen4 h1{
+	margin-top:10vh;
+}
+#ball{
+	cursor: pointer; 
+	position: absolute;
+	left: 0px; 
+	top: 0px; 
+	padding-top:30vh;
+	opacity: 0.7;
+	z-index: 99900;
+	width:100vw;
+	height:100vh;
+	background: #000;
+	color:#B2B2B2;
+
+}
+#ball .content{
+	text-align: center;
+    width: 10vw;
+    height: 100vh;
+    line-height: 100vh;
+    vertical-align: bottom;
+    margin: auto;
+    display: block;
+    font-size: 24px;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 0px #B2B2B2, 0px 0px 0px #B2B2B2;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 3px #B2B2B2,
+      0px 0px 3px #B2B2B2, 
+      0px 0px 5px #7B96B8,
+      0px 0px 5px #7B96B8;
+  }
+}

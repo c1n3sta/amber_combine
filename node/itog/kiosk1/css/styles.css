@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+html{
+background: #f8e4af;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:  auto;
+}
+
+body{
+	
+	
+}
+.main{
+	position: relative;
+}
+.screen{
+	
+}
+img{
+	width:100%;
+	display: block;
+	outline:none;
+}
+img:focus{
+	outline: 0;
+}
+*::selection{
+background: transparent;
+color:#B2B2B2;
+}

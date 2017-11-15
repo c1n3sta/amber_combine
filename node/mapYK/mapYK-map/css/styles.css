@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+html{
+	background: #000;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:  hidden;
+}
+
+body{
+	font: 14px Arial, Helvetica, sans-serif;
+	color:#fff;
+	overflow:  hidden;
+	background: #000;
+}
+.main{
+	height:100vh;
+	position: relative;
+}
+.screen{
+	
+	height: 100vh;
+	width:100vw;
+}
+video{
+	transform:rotate(180deg);
+}
+canvas{
+	width: 100%;
+	height: 100%
+}
+
+body{
+	margin: 0;
+}
+video{
+	width:100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 100;
+	
+}
+.main-video{
+	display: block;
+	z-index: 1;
+}
+.dop-video{
+	display: none;
+}
+.sync{
+	position: absolute;
+	z-index: 200;
+	top:50px;
+	left:50px;
+	background: #0f0;
+	color: #fff;
+	width:100px;
+	height:360px;
+display:none;
+}

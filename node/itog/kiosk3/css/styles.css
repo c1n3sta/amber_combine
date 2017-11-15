@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+html{
+background: #3C3C3B;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:  auto;
+}
+
+body{
+	font: 14px sans-serif;
+	color:#B2B2B2;
+
+	
+}
+.main{
+	position: relative;
+}
+.screen{
+	width: 94vw;
+	text-align: left;
+	margin: 2vh 0 5vh 2vw;
+}
+h1{
+	text-align: center;
+	margin: 3vh 0;
+}
+p{
+	text-indent:2vw;
+	margin:2vh 0;
+	
+}
+*::selection{
+background: transparent;
+color:#B2B2B2;
+}

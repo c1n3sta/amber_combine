@@ -1,0 +1,117 @@
+%!Adobe-FontList 1.14
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HeliosCondC
+FamilyName:HeliosCondC
+FullName:HeliosCondC
+MenuName:HeliosCondC
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:\\BIG-BOX\Public\_CULTURE\_MUSEUMS\Amber museum\Для истории\for mail\Папка screens\Document fonts\HLS57_.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:32227
+FileModTime:1108465250
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:HeliosCondC
+NumMMAxes:0
+OutlineFileName:\\BIG-BOX\Public\_CULTURE\_MUSEUMS\Amber museum\Для истории\for mail\Папка screens\Document fonts\HLS57_.PFM
+FileLength:2338
+FileModTime:1108465250
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HeliosCondC-Bold
+FamilyName:HeliosCondC
+StyleName:Bold
+FullName:HeliosCondC Bold
+MenuName:HeliosCondC
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:\\BIG-BOX\Public\_CULTURE\_MUSEUMS\Amber museum\Для истории\for mail\Папка screens\Document fonts\HLS77_.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:34296
+FileModTime:1108466310
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:HeliosCondC-Bold
+NumMMAxes:0
+OutlineFileName:\\BIG-BOX\Public\_CULTURE\_MUSEUMS\Amber museum\Для истории\for mail\Папка screens\Document fonts\HLS77_.PFM
+FileLength:1931
+FileModTime:1108466310
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HeliosCondC-Italic
+FamilyName:HeliosCondC
+StyleName:Italic
+FullName:HeliosCondC Italic
+MenuName:HeliosCondC
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:\\BIG-BOX\Public\_CULTURE\_MUSEUMS\Amber museum\Для истории\for mail\Папка screens\Document fonts\HLS58_.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:34510
+FileModTime:1108465274
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:HeliosCondC-Italic
+NumMMAxes:0
+OutlineFileName:\\BIG-BOX\Public\_CULTURE\_MUSEUMS\Amber museum\Для истории\for mail\Папка screens\Document fonts\HLS58_.PFM
+FileLength:2345
+FileModTime:1108465274
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TimesNewRomanPS-BoldMT
+FamilyName:Times New Roman
+StyleName:Bold
+FullName:Times New Roman Bold
+MenuName:Times New Roman
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:\\BIG-BOX\Public\_CULTURE\_MUSEUMS\Amber museum\Для истории\for mail\Папка screens\Document fonts\timesbd.ttf
+DataFormat:sfntData
+FileLength:842964
+FileModTime:1244666653
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+

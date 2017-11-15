@@ -1,0 +1,14 @@
+#!/bin/sh
+while [ true ]
+do
+
+stty -F /dev/ttyUSB0 cs8 9600 ignbrk -brkint -icrnl -imaxbel -opost -onlcr -isig -icanon -iexten -echo -echoe -echok -echoctl -echoke noflsh -ixon -crtscts raw
+
+	while read LINE
+	do
+	
+	echo $LINE > test
+			
+	done < /dev/ttyUSB0
+/bin/sleep 3
+done

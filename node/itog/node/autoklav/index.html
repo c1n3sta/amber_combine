@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AVTOKLAV</title>
+	<link rel="stylesheet" href="./css/jquery-ui.min.css">
+	<link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/vivus.min.js"></script>
+     <script src="./js/jquery-ui.min.js"></script>
+     <script src="./js/jquery.ui.touch-punch.min.js"></script>
+</head>
+<body>
+<div class="main">
+	<div class="screen">
+		<div class="left-frame" style="text-align: center">
+			
+		</div>
+		<div class="center-frame">
+			<div class="center-frame-inner">
+				<svg id="svg" width="100%" height="100vh">
+				    <path class="circle" style="stroke: rgb(85, 85, 85); stroke-dasharray: 3150; animation-fill-mode:forwards; stroke-dashoffset: 0px; stroke-width: 24; fill: transparent;" d="M540,40 m0,0 a 500,500 0 0,1 0,1000 a 500,500 0 0,1 0,-1000">
+				     <animate attributeType="XML" id="stroke-dashoffset" attributeName="stroke-dashoffset" dur="6s" to="3150" repeatCount="1" begin="a.click" fill="freeze"></animate>
+				    </path>
+				</svg>
+				<video id="video">
+					<source src="images/avtoklav.webm" type='video/webm;codecs="vp8, vorbis"' />
+				</video>
+			</div>
+		</div>
+		<div class="right-frame">
+			<div class="time"></div>
+		</div>
+		<div style="clear: both"></div>
+	</div>
+</div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>QUIZ</title>
+
+	<link rel="stylesheet" href="./css/styles.css">
+	<script src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.rwdImageMaps.js"></script>
+	<script src="./js/script.js"></script>
+	
+</head>
+<body>
+
+	<div id="ball">
+		<div class="content">Начать</div>
+	</div>
+<div class="main">
+	<div class="screen screen1">
+		<div class="logo"><img src="images/logo.png"></div>
+		<div class="text">
+			<h1>ЧТО ВЫ ЗНАЕТЕ О ЯНТАРЕ?</h1>
+			<button>Пройти блиц-тест</button>
+		</div>
+	</div>
+	<div class="screen screen2 quest">
+		<div class="left">
+			<h1>Отметь поддельный янтарь</h1>
+			<div class="content">
+				<div class="imgvar" onClick="calculateClick(0);toSlide3()"><img src="images/preview/Y16.jpg"></div>
+				<div class="imgvar"  onClick="calculateClick(0);toSlide3()"><img src="images/preview/Y15.jpg"></div>
+				<div class="imgvar" onClick="calculateClick(1);toSlide3()"><img src="images/preview/Y14.jpg"></div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div class="bar">
+			<div class="hider"></div>
+			<img src="images/bar.png">
+		</div>
+	</div>
+	<div class="screen screen3 quest">
+		<div class="left">
+			<h1>В каком году Ломоносов доказал растительное происхождение янтаря?</h1>
+			<div class="content">
+				<div class="textvar"  onClick="calculateClick(1);toSlide4()">1842</div>
+				<div class="textvar"  onClick="calculateClick(0);toSlide4()">1861</div>
+				<div class="textvar"  onClick="calculateClick(0);toSlide4()">1878</div>
+				<div class="textvar"  onClick="calculateClick(0);toSlide4()">1834</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div class="bar">
+			<div class="hider"></div>
+			<img src="images/bar.png">
+		</div>
+	</div>
+	<div class="screen screen4 quest">
+		<div class="left">
+			<h1>Выберите все места добычи янтаря</h1>
+			<div class="content">
+				<div class="map-option">
+					<img src="images/map4.png" width="670" height="342" usemap="#slide4map">
+					<map name="slide4map">
+						<area shape="circle" coords="100,100,50"  href='#1' onclick="calculateOption(1,6)" alt="1">
+						<area shape="circle" coords="100,100,50" href='#1' onclick="calculateOption(1,6)" alt="2">
+						<area shape="circle" coords="100,100,50" href='#1' onclick="calculateOption(1,6)" alt="3">
+						<area shape="circle" coords="100,100,50" href='#1' onclick="calculateOption(0,6)" alt="4">
+						<area shape="circle" coords="100,100,50" href='#1' onclick="calculateOption(0,6)" alt="5">
+						<area shape="circle" coords="100,100,50" href='#1' onclick="calculateOption(1,6)" alt="6">
+					</map>
+					<button>Ответить</button>
+				</div>
+			</div>
+		</div>
+		<div class="bar">
+			<div class="hider"></div>
+			<img src="images/bar.png">
+		</div>
+	</div>
+	<div class="screen screen5 quest">
+		<div class="left">
+			<h1>Из чего делают поддельный янтарь?</h1>
+			<div class="content">
+				<div class="optiontext">
+				<div class="optionvar"  onClick="calculateOption(0,4)">
+					<div class="texti">Эпоксидная смола</div>
+					<div class="checki"></div>
+					<div style="clear: both"></div>
+				</div>
+				<div class="optionvar"  onClick="calculateOption(0,4)">
+					<div class="texti">Смола сосны</div>
+					<div class="checki"></div>
+					<div style="clear: both"></div>
+				</div>
+				<div class="optionvar"  onClick="calculateOption(1,4)">
+					<div class="texti">Фенобарбитурат</div>
+					<div class="checki"></div>
+					<div style="clear: both"></div>
+				</div>
+				<div class="optionvar"  onClick="calculateOption(1,4)">
+					<div class="texti">Аммониты</div>
+					<div class="checki"></div>
+					<div style="clear: both"></div>
+				</div>
+				<div style="clear: both;"></div>
+				<button>Ответить</button>
+				</div>
+			</div>
+		</div>
+		<div class="bar">
+			<div class="hider"></div>
+			<img src="images/bar.png">
+		</div>
+	</div>
+	<div class="screen screen6 quest">
+		<div class="left">
+			<h1>Где закаляют янтарь?</h1>
+			<div class="content">
+				<div class="textvar"  onClick="calculateClick(1);toSlide7()">В холодной воде</div>
+				<div class="textvar"  onClick="calculateClick(0);toSlide7()">В печи</div>
+				<div class="textvar"  onClick="calculateClick(0);toSlide7()">В автоклаве</div>
+				<div class="textvar"  onClick="calculateClick(0);toSlide7()">В прессе</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div class="bar">
+			<div class="hider"></div>
+			<img src="images/bar.png">
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

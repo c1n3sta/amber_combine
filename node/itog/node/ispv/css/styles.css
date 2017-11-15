@@ -1,0 +1,172 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+html{
+	background: #000;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:  hidden;
+}
+
+body{
+	font: 14px Arial, Helvetica, sans-serif;
+	color:#fff;
+	overflow:  hidden;
+}
+.main{
+	height:100vh;
+	position: relative;
+	
+}
+.mask{
+	position: absolute;
+	z-index: 0;
+	left:0;
+	top:0;
+	width:100vw;
+	height:200vh;
+	background: url(../images/mask.png) no-repeat;
+	background-size: 100%;
+
+
+}/*
+.mask2{
+	 position: absolute;
+    z-index: 0;
+    left: -294px;
+    top: -683px;
+    width: 136vw;
+    height: 160vw;
+    background: url(../images/mask.png) no-repeat;
+    background-size: 100%;
+}
+.mask3{
+	position: absolute;
+	z-index: 9999;
+	top:0px;
+	width:100%;
+	height:10vh;
+	left:0px;
+	background-color: #3c3c3b;
+}
+.mask4{
+	position: absolute;
+	z-index: 9999;
+	bottom:0px;
+	width:100%;
+	height:10vh;
+	left:0px;
+	background-color: #3c3c3b;
+}*/
+.center-frame{
+    height: 100vh;
+    width: 38vw;
+    margin: auto;
+    z-index: 999;
+    position: absolute;
+    top: 17vh;
+    left: 12vw;
+}
+.product img
+{
+	width: 100%;
+	
+	position: absolute;
+	top:0px;
+	left:50%;
+	z-index: 10;
+}
+.imgArray {
+    display: none;
+    list-style: none;
+ }
+ .imgArray .current-image {
+    visibility: visible; 
+}
+ .imgArray .previous-image {
+    visibility: hidden;  
+}
+.nav_bar{
+  	display: none;
+}
+.spinner{
+    width: 100%;
+    display: table-cell;
+    height: 150px;
+    line-height: 150px;
+    z-index: 9999999;
+    color: #fff;
+    background: url(../images/load.gif) no-repeat center center;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    background-size: 150px;
+}
+.product{
+	vertical-align: middle;
+	text-align: center;
+	display: table;
+	width:100%!important;
+	height: 100%!important;
+	cursor: pointer;
+	position: relative;
+	display: none;
+
+}
+#product1{
+	display: table;
+}
+.i360{
+	background:url(../images/360.gif) no-repeat;
+	background-size: 160px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	width:160px;
+	height:160px;
+	z-index:20;
+}
+
+#screener{
+	position: fixed;
+	height:100vh;
+	width:100vw;
+	background: #000;
+	opacity: 0.9;
+	z-index: 999999;
+}
+
+area{cursor: pointer;}
+#rotateImg {
+	position: absolute;
+	height:100vw;
+	overflow: hidden;
+	width:100vw;
+	left:0;
+	top:0;
+	z-index: 99;
+	-webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+}
+#rotateImg img{
+	width:100%;
+	height: auto;
+	-webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+}

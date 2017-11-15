@@ -1,0 +1,55 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: oven.ai
+Color Mode: CMYK color
+Color Profile: U.S. Web Coated (SWOP) v2
+Ruler Units: pixels
+Artboard Dimensions: 1920 px x 1080 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+H:\spaps\vlcsnap-2017-06-23-02h18m09s488.png
+Type: CMYK
+Bits per Pixel: 32
+Channels: 4
+Size: 8175K, 1920 by 1090 pixels
+Dimensions: 1920 by 1082,236 points 
+Resolution: 72 by 72,517 pixels per inch
+
+
+H:\spaps\vlcsnap-2017-06-23-02h18m23s648.png
+Type: CMYK
+Bits per Pixel: 32
+Channels: 4
+Size: 8175K, 1920 by 1090 pixels
+Dimensions: 1920 by 1090 points 
+Resolution: 72 by 72 pixels per inch

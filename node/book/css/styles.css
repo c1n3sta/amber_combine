@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Slava; /* Имя шрифта */
+    src: url(../fonts/main.otf); /* Путь к файлу со шрифтом */
+   }
+*{
+	margin:0;
+	padding:0;
+
+}
+
+html{
+	background: #000;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:  hidden;
+}
+
+body{
+	font: 14px Slava;
+	color:#B2B2B2;
+	overflow:  hidden;
+	background: #3C3C3B;
+}
+.main{
+	height:100vh;
+	position: relative;
+}
+.screen{
+	
+	height: 100vh;
+	width:100vw;
+}
+.logs{
+	width:30%;
+	height:20vh;
+	float: left;
+	background:#111;
+	color:#fff;
+}
+.logs2{
+	width:30%;
+	float: left;
+	height:20vh;
+	background:#111;
+	color:#fff;
+}
+.logs3{
+	width:30%;
+	float: left;
+	height:20vh;
+	background:#111;
+	color:#fff;
+}
+
+.book{
+	width:80vw;
+	margin:auto;
+	height:80vh;
+	
+
+}
+.booklet         {position:relative; margin:0 auto; overflow:visible !important;    top: 10vh;background:url(../images/book.jpg) no-repeat center center;background-size: 100%;}
+
+p{
+	color:#191003;
+}
